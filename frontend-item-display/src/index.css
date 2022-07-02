@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #504b4b;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+*:focus {
+  outline: none;
+}
+
+.loading-screen {
+  text-align: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.row {
+  padding: 0 10px;
+}
+
+/* Search Results page */
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 12px 4px 30px;
+  background-color: #ededed;
+}
+
+.item-container {
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.item-card {
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.item-container .name {
+  display: block;
+  text-align: left;
+  white-space: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  max-height: 1.33em;
+  font-size: 15px;
+  color: #6c6868;
+}
+
+.item-container a {
+  text-decoration: none;
+}
+
+.bottom-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2px;
+}
+
+.item-container .price {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: #5a5959;
+}
+
+.item-container .count {
+  margin: 0;
+  color: #6c6868;
+}
+
+.item-container .likes {
+  display: flex;
+}
+
+.heart {
+  width: 16px;
+  padding-right: 3px;
+}
+
+.product-image {
+  position: relative;
+}
+
+.App .product-image img {
+  width: 100%;
+}
+
+.search-box {
+  padding: 10px 0;
+  border-bottom: 1px #efebee solid;
+}
+
+.search-box input {
+  width: 180px;
+  border: 0;
+  border-radius: 4px;
+  line-height: 24px;
+  background-color: #ebe8ea;
+}
+
+.search-box input::placeholder {
+  padding: 0 6px;
+  font-size: 13px;
+  color: #bcbbbc;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  font-size: 13px;
+  color: #bebebe;
+  font-weight: bold;
+}
+
+.category {
+  cursor: pointer;
+}
+
+/* Single Product Display page */
+
+.product-display img {
+  width: 100%;
+}
+
+.sold-out {
+  position: absolute;
+  top: 0;
+  width: 40%;
+}
+
+.product-display h1 {
+  font-size: 16px;
+}
+
+.actions-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0 20px;
+}
+
+.actions-section .button {
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 30px;
+  color: #6b6a6a;
+}
+
+.engagement {
+  display: flex;
+}
+
+.engagement .like {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
+.engagement .like .button {
+  display: flex;
+}
+
+.engagement .count {
+  padding-left: 4px;
+  font-weight: bold;
+}
+
+.gray-background {
+  max-width: none;
+  background-color: #e0e0e0;
+}
+
+.gutter-padding {
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.flag {
+  width: 14px;
+}
+
+.report svg {
+  width: 100%;
+  height: auto;
+}
+
+.call-to-action {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 400px;
+  background-color: #3b2823;
+  color: white;
+}
+
+.call-to-action .inner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+}
+
+.price-details {
+  display: flex;
+  align-items: flex-end;
+}
+
+.call-to-action .price {
+  font-size: 22px;
+}
+
+.shipping {
+  padding-left: 4px;
+  font-size: 12px;
+}
+
+.buy-button {
+  padding: 12px;
+  border-radius: 2px;
+  background-color: #ba3d3d;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sub-heading {
+  padding-top: 24px;
+  color: #6e6a6a;
+}
+
+@media (min-width: 880px) {
+  .container {
+    max-width: 880px;
+  }
+}
+
+@media (max-width: 880px) {
+  .container {
+    max-width: 680px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    max-width: 360px;
+  }
+
+  .gray-background {
+    max-width: none;
+  }
+}

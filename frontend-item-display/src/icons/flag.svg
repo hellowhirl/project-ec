@@ -1,0 +1,34 @@
+<svg viewBox="0 0 230 257" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <title>Layer 1</title>
+    <g id="svg_10">
+      <rect
+        stroke="null"
+        rx="4"
+        id="svg_1"
+        height="257.41626"
+        width="21.72727"
+        y="-0.00001"
+        x="-0.00001"
+        fill="#A2A0A7"
+      />
+      <rect
+        stroke="null"
+        rx="5"
+        id="svg_2"
+        height="151.09091"
+        width="131.11359"
+        y="0"
+        x="5.27617"
+        fill="#A2A0A7"
+      />
+      <path
+        id="svg_6"
+        d="m123.27328,30.45476c0,-2.71689 2.28311,-5 5,-5l96.56815,0c2.71689,0 5,2.28311 5,5l0,145.63635c0,2.71689 -2.28311,5 -5,5l-96.56815,0c-2.71689,0 -5,-2.28311 -5,-5l0,-145.63635z"
+        opacity="undefined"
+        stroke="null"
+        fill="#A2A0A7"
+      />
+    </g>
+  </g>
+</svg>

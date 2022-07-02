@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="item-card"
+>
+  <div
+    className="product-image"
+  >
+    <img
+      src="images/image_2.png"
+    />
+    <div
+      className="sold-out"
+    >
+      <svg
+        stroke="null"
+        viewBox="0 0 200 200"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          id="Layer_1"
+          stroke="null"
+        >
+          <title>
+            Layer 1
+          </title>
+          <line
+            fill="none"
+            id="svg_2"
+            stroke="null"
+            x1="2.6087"
+            x2="158.69565"
+            y1="195.21739"
+            y2="47.3913"
+          />
+          <line
+            fill="none"
+            id="svg_3"
+            stroke="null"
+            x1="157.3913"
+            x2="200.43478"
+            y1="48.69565"
+            y2="0"
+          />
+          <line
+            fill="none"
+            id="svg_5"
+            stroke="null"
+            x1="-2.17391"
+            x2="-2.17391"
+            y1="203.91304"
+            y2="204.34783"
+          />
+          <line
+            fill="none"
+            id="svg_6"
+            stroke="null"
+            x1="78.26087"
+            x2="77.82609"
+            y1="98.69565"
+            y2="98.69565"
+          />
+          <rect
+            fill="#e03a33"
+            height="234.92823"
+            id="svg_10"
+            transform="rotate(-45 13.655 20.5098)"
+            width="349.00995"
+            x="-160.84995"
+            y="-96.95433"
+          />
+          <text
+            fill="#ffffff"
+            fontFamily="'Sora'"
+            fontSize="24"
+            fontWeight="bold"
+            id="svg_12"
+            stroke="null"
+            strokeWidth="0"
+            textAnchor="start"
+            transform="rotate(-45 73.9445 73.788) matrix(2.02572 0 0 2.02572 -84.7564 -42.8368)"
+            x="43.67461"
+            y="65.73831"
+          >
+            SOLD
+          </text>
+        </g>
+      </svg>
+    </div>
+  </div>
+  <div
+    className="name"
+  >
+    Vegan leather bag
+  </div>
+  <div
+    className="bottom-info"
+  >
+    <div
+      className="price"
+    >
+      ¥
+      10,000
+    </div>
+    <div
+      className="likes"
+    >
+      <svg>
+        heart.svg
+      </svg>
+      <p
+        className="count"
+      >
+        0
+      </p>
+    </div>
+  </div>
+</div>
+`;
